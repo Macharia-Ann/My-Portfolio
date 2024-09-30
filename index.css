@@ -1,0 +1,226 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: black;
+  color: white;
+  
+}
+#header{
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.container{
+  padding: 10px 10px;
+}
+.h{
+  color: #ff004f;
+}
+.par1{
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-left: 70px;
+  font-weight: bold;
+
+}
+.par2{
+  font-size: 35px;
+  color: #ff004f;
+}
+.par3{
+  line-height: 18px;
+}
+.subscribe{
+  width: 100px;
+  height: 36px;
+  background-color: #ff004f;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  font-size: 15px;
+
+}
+.subscribe:hover{
+  background-color: white;
+  color: #ff004f;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li{
+  display: inline-block;
+  margin: 10 12px;
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+}
+nav ul li a::after{
+background-color: #ff004f;
+width: 0;
+content: '';
+left: 0;
+bottom: -6px;
+position: absolute;
+height: 3px;
+transition: 0.5px;
+
+}
+nav ul li a:hover::after{
+  width: 100%;
+}
+
+.background-image{
+float: right;
+
+}
+.header-text{
+  margin-top: 100px;
+  width: 500px;
+  margin-left: 50px;
+  
+}.head1{
+  font-size: 35px;
+}
+
+
+.text-bar{
+  margin-top: 40px;
+
+}
+.letstalk{
+  width: 300px;
+  height: 50x;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-size: 14px;
+  margin-right: 20px;
+  border: none;
+}
+.talk-button{
+  width: 105px;
+  height: 36px;
+  background-color: #ff004f;
+  color: white;
+  font-weight: bold;
+  padding: 20px 20px;
+  border-radius: 50px;
+  border: none;
+cursor: pointer;
+}
+.talk-button:hover{
+  background-color: white;
+  color: #ff004f;
+  transition: 0.15s;
+}
+#about{
+  display: flex;
+text-align: center;
+}
+.about-image{
+  width: 500px;
+  background-position: center;
+  background-size: contain;
+}
+.about-heading{
+  font-size: 40px;
+margin-top: 30px;
+text-align: center;
+margin-bottom: 20px;
+  }
+  
+  .about-div{
+    width: 300px;
+  }
+   ul li{
+list-style: none;
+  }
+
+  h3{
+    color: #ff004f;
+  }
+#services{
+  text-align: center;
+  margin-top: 150px;
+  display: flex;
+}
+.services-heading{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.services-offered{
+  width: 200px;
+margin-left: 150px;}
+.read-more{
+  background-color: #ff004f;
+  color: white;
+  width: 150px;
+  border: none;
+  border-radius: 40px;
+  margin-top: 10px;
+  padding: 20px 20px;
+  font-weight: bold;
+}
+.read-more:hover{
+  background-color: white;
+  color: #ff004f;
+}
+.hire{
+  text-align: center;
+  margin-top: 150px;
+}
+
+.hire-par{
+  font-size: 27px;
+}
+.hire-button{
+  background-color: #ff004f;
+  color: white;
+  width: 150px;
+  border: none;
+  border-radius: 40px;
+  margin-top: 10px;
+  padding: 20px 20px;
+  font-weight: bold;
+}
+.hire-button:hover{
+  background-color: white;
+  color: #ff004f;
+}
+#contact{
+  text-align: center;
+  margin-top: 150px;
+
+}
+.contact-heading{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.social-icons{
+  width: 27px;
+  margin-right: 10px;
+  margin-top: 10px;
+
+}
+.footer{
+  text-align: center;
+  background-color: #abababab;
+  margin-bottom: 15px;
+  padding:20px 20px;
+}
